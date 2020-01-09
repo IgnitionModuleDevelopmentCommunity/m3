@@ -6,7 +6,7 @@
 
     <parent>
         <artifactId>inforM3</artifactId>
-        <groupId>com.inductiveautomation.erp.inforM3</groupId>
+        <groupId>org.ignitionmdc.erp.inforM3</groupId>
         <version>1.8</version>
     </parent>
 

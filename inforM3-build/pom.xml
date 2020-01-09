@@ -6,7 +6,7 @@
 
     <parent>
         <artifactId>inforM3</artifactId>
-        <groupId>com.inductiveautomation.erp.inforM3</groupId>
+        <groupId>org.ignitionmdc.erp.inforM3</groupId>
         <version>1.8</version>
     </parent>
 
@@ -14,22 +14,22 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.inductiveautomation.erp.inforM3</groupId>
+            <groupId>org.ignitionmdc.erp.inforM3</groupId>
             <artifactId>inforM3-client</artifactId>
             <version>1.8</version>
         </dependency>
         <dependency>
-            <groupId>com.inductiveautomation.erp.inforM3</groupId>
+            <groupId>org.ignitionmdc.erp.inforM3</groupId>
             <artifactId>inforM3-common</artifactId>
             <version>1.8</version>
         </dependency>
         <dependency>
-            <groupId>com.inductiveautomation.erp.inforM3</groupId>
+            <groupId>org.ignitionmdc.erp.inforM3</groupId>
             <artifactId>inforM3-designer</artifactId>
             <version>1.8</version>
         </dependency>
         <dependency>
-            <groupId>com.inductiveautomation.erp.inforM3</groupId>
+            <groupId>org.ignitionmdc.erp.inforM3</groupId>
             <artifactId>inforM3-gateway</artifactId>
             <version>1.8</version>
         </dependency>
@@ -71,7 +71,7 @@
                         </projectScope>
                     </projectScopes>
 
-                    <moduleId>com.inductiveautomation.erp.inforM3</moduleId>
+                    <moduleId>org.ignitionmdc.erp.inforM3</moduleId>
                     <moduleName>${project.parent.name}</moduleName>
                     <moduleDescription>${project.description}</moduleDescription>
                     <moduleVersion>1.0.1.20160219</moduleVersion>
@@ -81,15 +81,15 @@
                     <hooks>
                         <hook>
                             <scope>C</scope>
-                            <hookClass>com.inductiveautomation.erp.inforM3.client.ClientHook</hookClass>
+                            <hookClass>org.ignitionmdc.erp.inforM3.client.ClientHook</hookClass>
                         </hook>
                         <hook>
                             <scope>D</scope>
-                            <hookClass>com.inductiveautomation.erp.inforM3.designer.DesignerHook</hookClass>
+                            <hookClass>org.ignitionmdc.erp.inforM3.designer.DesignerHook</hookClass>
                         </hook>
                         <hook>
                             <scope>G</scope>
-                            <hookClass>com.inductiveautomation.erp.inforM3.GatewayHook</hookClass>
+                            <hookClass>org.ignitionmdc.erp.inforM3.GatewayHook</hookClass>
                         </hook>
                     </hooks>
 

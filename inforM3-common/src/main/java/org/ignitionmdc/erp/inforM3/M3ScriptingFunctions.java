@@ -1,4 +1,4 @@
-package com.inductiveautomation.erp.inforM3;
+package org.ignitionmdc.erp.inforM3;
 
 import MvxAPI.MvxSockJ;
 

@@ -1,6 +1,6 @@
-package com.inductiveautomation.erp.inforM3.designer;
+package org.ignitionmdc.erp.inforM3.designer;
 
-import com.inductiveautomation.erp.inforM3.M3ScriptingFunctions;
+import org.ignitionmdc.erp.inforM3.M3ScriptingFunctions;
 import com.inductiveautomation.ignition.common.script.ScriptManager;
 import com.inductiveautomation.ignition.designer.model.AbstractDesignerModuleHook;
 
