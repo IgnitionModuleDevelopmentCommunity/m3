@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/InforM3API_1_8.iml" filepath="$PROJECT_DIR$/InforM3API_1_8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inforM3-build/inforM3-build.iml" filepath="$PROJECT_DIR$/inforM3-build/inforM3-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inforM3-client/inforM3-client.iml" filepath="$PROJECT_DIR$/inforM3-client/inforM3-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inforM3-common/inforM3-common.iml" filepath="$PROJECT_DIR$/inforM3-common/inforM3-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inforM3-designer/inforM3-designer.iml" filepath="$PROJECT_DIR$/inforM3-designer/inforM3-designer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inforM3-gateway/inforM3-gateway.iml" filepath="$PROJECT_DIR$/inforM3-gateway/inforM3-gateway.iml" />
+    </modules>
+  </component>
+</project>

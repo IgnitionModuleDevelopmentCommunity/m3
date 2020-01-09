@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.inductiveautomation.erp.inforM3</groupId>
+    <artifactId>inforM3</artifactId>
+    <version>1.8</version>
+    <packaging>pom</packaging>
+
+    <name>Infor M3 Connect</name>
+    <description>A library for communication with the Infor M3 ERP</description>
+
+    <properties>
+        <ignition-sdk-version>7.8.0</ignition-sdk-version>
+    </properties>
+
+    <modules>
+        <module>inforM3-build</module>
+        <module>inforM3-client</module>
+        <module>inforM3-common</module>
+        <module>inforM3-designer</module>
+        <module>inforM3-gateway</module>
+    </modules>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>releases</id>
+            <url>https://nexus.inductiveautomation.com/repository/inductiveautomation-releases</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <repositories>
+        <repository>
+            <id>releases</id>
+            <url>https://nexus.inductiveautomation.com/repository/inductiveautomation-releases</url>
+        </repository>
+
+        <repository>
+            <id>snapshots</id>
+            <url>https://nexus.inductiveautomation.com/repository/inductiveautomation-snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+
+        <repository>
+            <id>thirdparty</id>
+            <url>https://nexus.inductiveautomation.com/repository/inductiveautomation-thirdparty</url>
+        </repository>
+        
+        <repository>
+            <id>thirdpartyinternal</id>
+            <url>http://10.10.75.112:8081/nexus/content/repositories/thirdparty</url>
+        </repository>
+    </repositories>
+
+</project>
