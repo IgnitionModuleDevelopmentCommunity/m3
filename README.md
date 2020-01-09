@@ -23,6 +23,8 @@ Replace these lines in the main pom.xml with ones that point to your internal re
 		<url>http://10.10.75.112:8081/nexus/content/repositories/thirdparty</url>
     </repository>
 
+The inforM3-common/pom.xml includes the <dependency> that it expects to find in that internal repository.
+
 ## License
 This is distributed under the MIT license.  Please feel free to contribute any changes back to this repository.  
 
